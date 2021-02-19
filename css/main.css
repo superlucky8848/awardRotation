@@ -1,0 +1,66 @@
+ul#Rotate
+{
+    position: relative;
+    width: 500px;
+    height: 500px;
+    border: 1px solid red;
+    border-radius: 50%;
+    background-image: url(../img/demo.svg);
+    background-size: 100% 100%;
+    padding: 0;
+    transform: rotate(0deg);
+}
+
+li.option
+{
+    display: flex;
+    position: absolute;
+    border: 1px solid green;
+    top: 0%;
+    left: 30%;
+    width: 40%;
+    height: 40%;
+    justify-content: center;
+    align-items: center;
+    transform-origin: 50% 125%;
+}
+
+li.option.op1
+{
+    transform: rotate(22.5deg);
+} 
+
+li.option.op2
+{
+    transform: rotate(67.5deg);
+} 
+
+li.option.op3
+{
+    transform: rotate(112.5deg);
+} 
+
+li.option.op4
+{
+    transform: rotate(157.5deg);
+} 
+
+li.option.op5
+{
+    transform: rotate(202.5deg);
+} 
+
+li.option.op6
+{
+    transform: rotate(247.5deg);
+} 
+
+li.option.op7
+{
+    transform: rotate(295.5deg);
+} 
+
+li.option.op8
+{
+    transform: rotate(337.5deg);
+} 

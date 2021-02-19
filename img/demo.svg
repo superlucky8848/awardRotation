@@ -8,6 +8,13 @@
             <line x1="50%" y1="5" x2="50%" y2="120" stroke="red" stroke-width="5" />
         </g>
     </defs>
+    <style>
+        .text
+        {
+            text-anchor: middle;
+            fill: black;
+        }
+    </style>
     <circle cx="50%" cy="50%" r="145" stroke="red" stroke-width="5" fill="transparent"/>
     <circle cx="50%" cy="50%" r="30" stroke="red" stroke-width="5" fill="transparent"/>
     <use xlink:href="#sepLine" transform-origin="50% 50%" transform="rotate(0)" />
@@ -18,4 +25,12 @@
     <use xlink:href="#sepLine" transform-origin="50% 50%" transform="rotate(135)" />
     <use xlink:href="#sepLine" transform-origin="50% 50%" transform="rotate(-135)" />
     <use xlink:href="#sepLine" transform-origin="50% 50%" transform="rotate(180)" />
+    <!-- <text id="award1" class="text" x="50%" y="20%" textLength="15%" lengthAdjust="spacing" transform-origin="50% 50%" transform="rotate(22.5)">1</text>
+    <text class="text" x="50%" y="20%" textLength="15%" lengthAdjust="spacing" transform-origin="50% 50%" transform="rotate(67.5)">2</text>
+    <text class="text" x="50%" y="20%" textLength="15%" lengthAdjust="spacing" transform-origin="50% 50%" transform="rotate(112.5)">3</text>
+    <text class="text" x="50%" y="20%" textLength="15%" lengthAdjust="spacing" transform-origin="50% 50%" transform="rotate(157.5)">4</text>
+    <text class="text" x="50%" y="20%" textLength="15%" lengthAdjust="spacing" transform-origin="50% 50%" transform="rotate(202.5)">5</text>
+    <text class="text" x="50%" y="20%" textLength="15%" lengthAdjust="spacing" transform-origin="50% 50%" transform="rotate(247.5)">6</text>
+    <text class="text" x="50%" y="20%" textLength="15%" lengthAdjust="spacing" transform-origin="50% 50%" transform="rotate(295.5)">7</text>
+    <text class="text" x="50%" y="20%" textLength="15%" lengthAdjust="spacing" transform-origin="50% 50%" transform="rotate(337.5)">8</text> -->
 </svg>

@@ -8,7 +8,7 @@ var IE = eval('"v"=="\v"');
 jQuery.fn.extend({
     rotate:function(parameters)
     {
-        if (this.length===0||typeof parameters=="undefined") return;
+        if (this.length===0 || typeof parameters=="undefined") return;
             if (typeof parameters=="number") parameters={angle:parameters};
         var returned=[];
         for (var i=0,i0=this.length;i<i0;i++)
