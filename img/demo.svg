@@ -1,0 +1,21 @@
+<svg version="1.1"
+     baseProfile="full"
+     width="300" height="300"
+     xmlns:xlink="http://www.w3.org/1999/xlink"
+     xmlns="http://www.w3.org/2000/svg">
+    <defs>
+        <g id="sepLine">
+            <line x1="50%" y1="5" x2="50%" y2="120" stroke="red" stroke-width="5" />
+        </g>
+    </defs>
+    <circle cx="50%" cy="50%" r="145" stroke="red" stroke-width="5" fill="transparent"/>
+    <circle cx="50%" cy="50%" r="30" stroke="red" stroke-width="5" fill="transparent"/>
+    <use xlink:href="#sepLine" transform-origin="50% 50%" transform="rotate(0)" />
+    <use xlink:href="#sepLine" transform-origin="50% 50%" transform="rotate(45)" />
+    <use xlink:href="#sepLine" transform-origin="50% 50%" transform="rotate(-45)" />
+    <use xlink:href="#sepLine" transform-origin="50% 50%" transform="rotate(90)" />
+    <use xlink:href="#sepLine" transform-origin="50% 50%" transform="rotate(-90)" />
+    <use xlink:href="#sepLine" transform-origin="50% 50%" transform="rotate(135)" />
+    <use xlink:href="#sepLine" transform-origin="50% 50%" transform="rotate(-135)" />
+    <use xlink:href="#sepLine" transform-origin="50% 50%" transform="rotate(180)" />
+</svg>
