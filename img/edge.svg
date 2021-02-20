@@ -1,0 +1,34 @@
+<svg version="1.1"
+     baseProfile="full"
+     width="220" height="220"
+     xmlns:xlink="http://www.w3.org/1999/xlink"
+     xmlns="http://www.w3.org/2000/svg">
+    <defs>
+        <radialGradient id='lightFan' cx="50%" cy="100%" r="100%">
+            <stop offset="20%" stop-color="gold" />
+            <stop offset="95%" stop-color="yellow" />
+        </radialGradient>
+        <radialGradient id='darkFan' cx="50%" cy="100%" r="100%">
+            <stop offset="20%" stop-color="gold" />
+            <stop offset="95%" stop-color="orange" />
+        </radialGradient>
+        <g id="fan">
+            <path d="M 92.35 81.52 L 62.50 9.46 A 98 98 0 0 1 137.50 9.46 L 107.65 81.52 A 20 20 0 0 0 92.35 81.52 Z" stroke="red" stroke-width="2"/>
+        </g>
+    </defs>
+    <style>
+        #fan
+        {
+            
+        }
+    </style>
+    <circle cx="110" cy="110" r="105" stroke="green" stroke-width="5" />
+    <!-- <use xlink:href="#fan" fill="url('#lightFan')" transform-origin="100 100" transform="rotate(0)" />
+    <use xlink:href="#fan" fill="url('#darkFan')"  transform-origin="100 100" transform="rotate(45)" />
+    <use xlink:href="#fan" fill="url('#lightFan')" transform-origin="100 100" transform="rotate(90)" />
+    <use xlink:href="#fan" fill="url('#darkFan')"  transform-origin="100 100" transform="rotate(135)" />
+    <use xlink:href="#fan" fill="url('#lightFan')" transform-origin="100 100" transform="rotate(180)" />
+    <use xlink:href="#fan" fill="url('#darkFan')"  transform-origin="100 100" transform="rotate(225)" />
+    <use xlink:href="#fan" fill="url('#lightFan')" transform-origin="100 100" transform="rotate(270)" />
+    <use xlink:href="#fan" fill="url('#darkFan')"  transform-origin="100 100" transform="rotate(315)" /> -->
+</svg>

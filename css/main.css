@@ -5,62 +5,63 @@ ul#Rotate
     height: 500px;
     border: 1px solid red;
     border-radius: 50%;
-    background-image: url(../img/demo.svg);
+    background-image: url(../img/wheel.svg);
     background-size: 100% 100%;
     padding: 0;
-    transform: rotate(0deg);
+    transform: rotate(22.5deg);
 }
 
 li.option
 {
-    display: flex;
+    display: block;
     position: absolute;
     border: 1px solid green;
     top: 0%;
     left: 30%;
-    width: 40%;
-    height: 40%;
-    justify-content: center;
-    align-items: center;
+    width: 20%;
+    height: 30%;
+    padding: 10% 10% 0% 10%;
+    text-align: center;
+    font: 1.2em sans-serif;;
     transform-origin: 50% 125%;
 }
 
 li.option.op1
 {
-    transform: rotate(22.5deg);
+    transform: rotate(0deg);
 } 
 
 li.option.op2
 {
-    transform: rotate(67.5deg);
+    transform: rotate(45deg);
 } 
 
 li.option.op3
 {
-    transform: rotate(112.5deg);
+    transform: rotate(90deg);
 } 
 
 li.option.op4
 {
-    transform: rotate(157.5deg);
+    transform: rotate(135deg);
 } 
 
 li.option.op5
 {
-    transform: rotate(202.5deg);
+    transform: rotate(180deg);
 } 
 
 li.option.op6
 {
-    transform: rotate(247.5deg);
+    transform: rotate(225deg);
 } 
 
 li.option.op7
 {
-    transform: rotate(295.5deg);
+    transform: rotate(270deg);
 } 
 
 li.option.op8
 {
-    transform: rotate(337.5deg);
+    transform: rotate(315deg);
 } 
