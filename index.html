@@ -1,26 +1,43 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zh">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Fred Shen">
+    <meta name="description" content="Yes Lottery">
+    <meta name="theme-color" content="#F02020">
+
+    <!-- OG Headers -->
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="抽奖">
+    <meta property="og:description" content="抽奖小程序">
+
     <title>Rotate Test</title>
+
     <link rel="stylesheet" type="text/css" href="css/main.css" />
-    <script src="js/jquery-1.8.3.min.js"></script>
-	<script src="js/awardRotate.js"></script>
+    <script type="text/javascript" src="js/jquery-1.8.3.min.js"></script>
+	<script type="text/javascript" src="js/awardRotate.js"></script>
+
+    <script type="text/javascript">
+        var script = document.createElement('script');
+        script.src = "js/main.js";
+        script.type = "text/javascript";
+        document.getElementsByTagName('head')[0].appendChild(script);
+    </script>
 </head>
 <body>
     <script src="js/animation.js"></script>
 
     <ul id="Rotate">
-        <li class="option op1">1奖品</li>
+        <!-- <li class="option op1">1奖品</li>
         <li class="option op2">2特大红包</li>
         <li class="option op3">3长长长长长长长长长长长长</li>
         <li class="option op4">4</li>
         <li class="option op5">5</li>
         <li class="option op6">6</li>
         <li class="option op7">7</li>
-        <li class="option op8">8</li>
+        <li class="option op8">8</li> -->
     </ul>
     <!-- <img id="Rotate" src="img/demo.svg" style="width: 150px">
         <span>1</span>

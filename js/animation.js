@@ -20,6 +20,4 @@ function rotate1()
         'duration': 1200*(loop+1),
         'callback': function(){alert("抽到奖品 "+ choise.toString());}
     });
-
-    
 }
