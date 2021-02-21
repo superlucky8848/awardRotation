@@ -29,11 +29,5 @@ options.forEach((item, index) =>
     total+=Number(item.value);
     awardValues.push(total);
 });
-    
-
-function windowLoad()
-{
-    alert("OK");
-}
 
 //window.onload = windowLoad;

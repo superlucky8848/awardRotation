@@ -1,14 +1,27 @@
-ul#Rotate
+div#container
 {
     position: relative;
-    width: 500px;
-    height: 500px;
-    border: 1px solid red;
+    display: block;
+    width: 550px;
+    height: 550px;
+    border: 1px solid black;
+}
+ul#Rotate
+{
+    position: absolute;
+    width: 90%;
+    height: 90%;
+    left: 5%;
+    top: 5%;
+    margin: 0px;
+    padding: 0px; 
     border-radius: 50%;
     background-image: url(../img/wheel.svg);
     background-size: 100% 100%;
     padding: 0;
     transform: rotate(22.5deg);
+    transform-origin: center;
+    border: 1px solid red;
 }
 
 li.option
@@ -65,3 +78,20 @@ li.option.op8
 {
     transform: rotate(315deg);
 } 
+
+div#start
+{
+    position: absolute;
+    width: 20%;
+    height: 25%;
+    left: 40%;
+    top: 35%;
+    background-image: url('../img/start.svg');
+    background-size: 100% 100%;
+    cursor: pointer;
+    border: 1px solid blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: azure;
+}
