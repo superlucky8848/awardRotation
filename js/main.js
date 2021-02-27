@@ -19,7 +19,7 @@ function fillPrizeWheel(options)
 
 function getPrizePool(poolName)
 {
-    console.log("GetPrizePool");
+    //console.log("GetPrizePool");
     let req = new XMLHttpRequest();
     req.open("GET", "pool/" + poolName + ".json");
     req.responseType="json";
@@ -27,7 +27,7 @@ function getPrizePool(poolName)
     req.onload=function()
     {
         let options = req.response.options;
-        console.log(options);
+        //console.log(options);
         fillPrizeWheel(options);
     }
 }

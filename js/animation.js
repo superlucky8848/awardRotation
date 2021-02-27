@@ -11,20 +11,22 @@ var IE = eval('"v"=="\v"');
 
 function rotate1()
 {
-    console.log(awards);
-    console.log(awardValues);
+    // console.log(awards);
+    // console.log(awardValues);
 
     let value = Math.floor(Math.random()*total);
     let loop = Math.floor(Math.random()*3+3);
+    let offset = Math.floor(Math.random()*40)-20;
 
     let choise = 0;
     while(value>awardValues[choise]) choise++;
-    console.log(value);
-    console.log(choise);
+    
+    // console.log(value);
+    // console.log(choise);
     
     jQuery('#Rotate').rotate({
         'angle' : 0,
-        'animateTo' : 360*loop - 45*choise,
+        'animateTo' : 360*loop - 45*choise + offset,
         'duration': 1200*(loop+1),
         'callback': function(){alert("抽到奖品:" + awards[choise]);}
     });
