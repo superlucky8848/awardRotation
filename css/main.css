@@ -47,6 +47,8 @@ div#container
     position: relative;
     width: 100vw;
     height: 100vw;
+    max-width: 500px;
+    max-height: 500px;
     overflow: hidden;
     border: 1px solid black;
 }
@@ -58,7 +60,7 @@ ul#Rotate
     left: 5%;
     top: 5%;
     border-radius: 50%;
-    background: url(../img/wheel.svg) no-repeat;
+    background: url(../img/wheel.png) no-repeat;
     background-size: 100%;
     padding: 0;
     transform: rotate(22.5deg);
